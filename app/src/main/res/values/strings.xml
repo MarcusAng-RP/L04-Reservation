@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">L04-Reservation</string>
+    <string name="restaurant_reservation">Restaurant reservation</string>
+    <string name="mobile_phone">Mobile phone</string>
+    <string name="group_size">Group size</string>
+    <string name="time">Time:</string>
+    <string name="date">Date:</string>
+    <string name="table_area">Table area:</string>
+    <string name="smoking">Smoking</string>
+    <string name="book">BOOK</string>
+    <string name="reset">RESET</string>
+
+</resources>
