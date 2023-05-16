@@ -9,14 +9,13 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
-import java.util.Calendar;
+
 
 public class MainActivity extends AppCompatActivity {
     EditText name;
@@ -96,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onDateChanged(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
                     LocalDate currentDate = LocalDate.now(ZoneId.systemDefault());
-                    System.out.println(currentDate);
+
                     LocalDate selectedDate = LocalDate.of(year, monthOfYear + 1, dayOfMonth);
 
                     if (selectedDate.isBefore(currentDate)) {
